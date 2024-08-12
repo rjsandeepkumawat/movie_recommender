@@ -32,7 +32,7 @@ To get started with the Movie Recommender System, follow these steps:
 
    ```bash
    git clone https://github.com/rjsandeepkumawat/movie_recommender.git
-   cd movie-recommender-system
+   cd movie_recommender
    ```
 
 2. **Create a Virtual Environment (optional but recommended):**
@@ -49,7 +49,11 @@ To get started with the Movie Recommender System, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
+ **Additional Pickle file:**
 
+   ```bash
+   pickle.dump(similarity,open('similarity.pkl','wb'))
+   ```
 ## Usage
 
 To run the Movie Recommender System, follow these steps:
@@ -75,15 +79,9 @@ To run the Movie Recommender System, follow these steps:
 - **`app.py`**: The main script for running the Streamlit application. It contains the code for the frontend interface and the logic to interact with the recommender model.
 - **`model.pkl`**: The serialized machine learning model used for making recommendations. This file should be in the same directory as `app.py` for the application to function correctly.
 - **`requirements.txt`**: A file listing all the necessary Python packages required to run the application. It can be used with `pip` to install dependencies.
+- **`similarity.pkl`**: This file should be in the same directory as `app.py` for the application to function correctly.
 
 ## Contributing
 
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request. For significant changes, open an issue first to discuss what you would like to change.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to adjust any sections or add additional details that might be relevant to your specific project.
