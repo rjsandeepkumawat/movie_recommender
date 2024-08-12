@@ -31,7 +31,7 @@ To get started with the Movie Recommender System, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/movie-recommender-system.git
+   git clone https://github.com/rjsandeepkumawat/movie_recommender.git
    cd movie-recommender-system
    ```
 
