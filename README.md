@@ -80,6 +80,7 @@ To run the Movie Recommender System, follow these steps:
 - **`model.pkl`**: The serialized machine learning model used for making recommendations. This file should be in the same directory as `app.py` for the application to function correctly.
 - **`requirements.txt`**: A file listing all the necessary Python packages required to run the application. It can be used with `pip` to install dependencies.
 - **`similarity.pkl`**: This file should be in the same directory as `app.py` for the application to function correctly.
+- **`app_background.jpg`**: This File is used for background in application you can choose your own by changing image path in app.py
 
 ## Contributing
 
